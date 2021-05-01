@@ -25,20 +25,20 @@ public class Main {
 			System.out.println(course.name);
 		}
 		
-		Member member1=new Member(01, "Ömer", "deneme@gmail.com", "1234");
-		Member member2=new Member(02,"Ece","deneme1@gmail.com","5678");
+		Student student1=new Student(01, "Ömer", "deneme@gmail.com", "1234");
+		Student student2=new Student(02,"Ece","deneme1@gmail.com","5678");
 		
-		Member[] members= {
-				member1,
-				member2
+		Student[] members= {
+				student1,
+				student2
 		};
 		
-		for (Member member: members) {
-			System.out.println(member.name);
+		for (Student student: members) {
+			System.out.println(student.name);
 		}
 		
 		Login login = new Login();
-		login.login(member1);
+		login.login(student1);
 		
 		TermsOfService termsOfService = new TermsOfService();
 		termsOfService.getTermsOfService();
