@@ -8,9 +8,9 @@ public class Main {
 		category1.id=120;
 		category1.name="Programlama";
 		
-		Educator educator1=new Educator();
-		educator1.id=920;
-		educator1.name="Engin Demiroð";
+		Instructor instructor1=new Instructor();
+		instructor1.id=920;
+		instructor1.name="Engin Demiroð";
 		
 		Course course1 = new Course(1, "Yazýlým Geliþtirici Yetiþtirme Kampý (C# + Angular)", "Yazýlým geliþtirici yetiþtirme kampý","Engin Demiroð", 0);
 		Course course2 = new Course(2, "Yazýlým Geliþtirici Yetiþtirme Kampý (Java + React)", "Yazýlým geliþtirici yetiþtirme kampý","Engin Demiroð", 0);
